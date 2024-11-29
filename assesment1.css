@@ -1,0 +1,302 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+#navbar{
+    width: 100%;
+    background: black;
+    position: fixed;
+    z-index: 1;
+}
+#logo img{
+    width: 40px;
+    height: 40px;
+}
+#navbar ul{
+    padding-left:150px;
+}
+#linebutton{
+    color: #fff;
+    font-size: 30px;
+}
+#navbar .nav-link{
+    color: #fff;
+
+}
+#navbar .nav-link:hover{
+    color: orange;
+}
+#navbar form button{
+    color: #fff;
+}
+#home{
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+#home img{
+    width: 100%;
+    height: 500px;
+}
+#home h2{
+  color: black;
+  font-size: 55px;
+  padding-top: 80px;
+  font-weight: 700;
+  animation: slideRight 1s ease forwards;
+  animation-delay: .4s;
+  opacity: 0;
+}
+@keyframes slideRight{
+    0%{
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#home p{
+    color: black;
+    font-size: 15px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .6s;
+    opacity: 0;
+}
+#home button{
+    color: #fff;
+    background: orange;
+    width: 150px;
+    height: 30px;
+    padding: 2px 0px 2px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .6s;
+    opacity: 0;
+}
+#home button:hover{
+    border: 1px orange;
+    color: orange;
+    background: #fff;
+    box-shadow: 0 0 5px #d3ad7f,
+    0 0 25px #d3ad7f,0 0 50px #d3ad7f
+   ;
+   transition: .2s ease-in-out;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0px 50px 0px;
+}
+.heading span{
+    color: #d3ad7f;
+}
+#about{
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+#about h3{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+#about p{
+    color: black;
+    font-size: 15px;
+}
+#aboutbtn{
+    color: #fff;
+    background: orange;
+    width: 150px;
+    height: 30px;
+    padding: 2px 0px 2px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+#about .carousel-item img{
+    height: 350px;
+}
+#offer {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+.heading2{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0px 50px 0px;
+}
+.heading2 span{
+    color: #d3ad7f;
+}
+#offer img{
+    height: 200px;
+}
+#offer h3{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+#offer p{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+#offer p span{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+#offer button{
+    color: #fff;
+    background: orange;
+    width: 150px;
+    height: 30px;
+    padding: 2px 0px 2px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+#offer .card{
+    margin-top: 25px;
+    border-radius: 10px;
+   overflow: hidden;
+ }
+#offer .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu{
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+.heading3{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0px 50px 0px;
+}
+.heading3 span{
+    color: #d3ad7f;
+}
+#menu img{
+    height: 200px;
+}
+#menu .card{
+   margin-top: 25px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+#menu .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu h3{
+   
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+#menu p{
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+#menu p span{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+#menu button{
+    color: #fff;
+    background: orange;
+    width: 150px;
+    height: 30px;
+    padding: 2px 0px 2px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+#contact{
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.heading4{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0px 50px 0px;
+}
+.heading4 span{
+    color: #d3ad7f;
+}
+#contact input{
+    width: 100%;
+  margin-top: 10px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+   border: .5px solid black;
+}
+#contact textarea{
+    margin-top: 15px;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    border: .5px solid black;
+}
+#sndbtn{
+    width: 100%;
+    color: black;
+    
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: #d3ad7f;
+}
+#sndbtn:hover{
+    color: #d3ad7f;
+    background: #fff;
+    border: 1px solid #d3ad7f;
+}
+#contact h3{
+    padding-top: 25px;
+}
+#modalbtn{
+   
+    border-radius: 10px;
+    color: black;
+    background: #d3ad7f;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
